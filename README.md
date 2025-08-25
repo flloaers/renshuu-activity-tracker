@@ -31,7 +31,7 @@ After running the scripts, you will find plots like:
 
 ### Clone the Repository 
 ```console 
-git clone https://github.com/yourusername/renshuu-activity-tracker.git
+git clone https://github.com/flloaers/renshuu-activity-tracker.git
 cd renshuu-activity-tracker
 ```
 ### Install Dependencies 

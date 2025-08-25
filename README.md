@@ -40,7 +40,7 @@ uv sync
 ```
 > This automatically creates a virtual environment (`.venv/`) and installs all dependencies. 
 ### Configure Environment Variables 
-Create a `.env` file in the `config/` folder.
+Create a `.env` file in the `config/` folder containing the following variables: 
 ```console 
 REN_API_KEY=your_personal_api_key
 API_BASE_URL=https://api.renshuu.org/v1
@@ -93,8 +93,8 @@ Issues and pull requests welcome! This is a learning project, so feedback is app
 
 ## 🔧 Troubleshooting
 - **API Key Issues**: Ensure your key is correctly set in the `.env` file.
-- **Missing Directories**: The script will create `data/` and `plots/`. folders automatically.
-- **Import Errors**: Run `uv sync` to ensure all dependencies are installed.
+- **Missing Directories**: `data/` and `plots/` are created automatically by the scripts if they do not exist.
+- **Import Errors**: Run `uv sync` inside the project folder to install all required dependencies.
 
 ## ⏰ Automation Setup 
 **Linux/macOS** (crontab):

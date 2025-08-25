@@ -21,9 +21,14 @@ Since my data log is quite small and plotting packages typically feed on Pandas 
 
 ## 📊 What You Will Get
 After running the scripts, you will find plots like:
-- `daily_activity_heatmap.png` - GitHub-style study streak visualization
-- `current_progress.png` - JLPT level progress bars  
-- `progress_over_time.png` - Historical learning trends
+### Daily Activity Heatmap
+![Daily Activity Heatmap](plots/renshuu_daily_all_heatmap.png)
+
+### Current Progress Bars  
+![Progress Bars](plots/renshuu_progress_bars.png)
+
+### Historical Learning Trends
+![Progress Over Time](plots/renshuu_progress_over_time.png)
 
 ## 🚀 Quick Start
 > Note: This project uses [uv](https://uv.run/) as a lightweight package manager and script runner.  

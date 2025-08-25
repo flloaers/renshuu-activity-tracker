@@ -1,4 +1,4 @@
-# 📈 Renshuu Activity Tracker 
+# 📈 Renshuu Activity Tracker
 
 A Python tool for tracking and visualising Renshuu learning progress using various visualisations.
 

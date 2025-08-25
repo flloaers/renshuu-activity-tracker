@@ -1,6 +1,6 @@
 # 📈 Renshuu Activity Tracker
 
-A Python tool for tracking and visualising Renshuu learning progress using various visualisations.
+A Python tool for tracking and visualising Renshuu learning progress.
 
 ## Why this Project? 
 I wanted to track my Japanese learning consistency and see my progress over time in a visual way. Since Renshuu provides an API, I built this tool to automatically collect my daily study data and create visualisations.

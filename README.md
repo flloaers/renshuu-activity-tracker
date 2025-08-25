@@ -107,7 +107,7 @@ Create a wrapper script for reliable cron execution.
 
 **Create `scripts/run_daily.sh`:**
 ```console
-#!/bin/bash
+#!/bin/bash  
 export PATH="$PATH:/home/username/.local/bin"
 cd /full/path/to/your/renshuu-activity-tracker
 uv run python scripts/fetch_data.py 

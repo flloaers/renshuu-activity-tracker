@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# renshuu-activity-tracker
-=======
 # 📈 Renshuu Activity Tracker 
 
 A Python tool for tracking and visualising Renshuu learning progress using various visualisations.
@@ -118,4 +115,3 @@ crontab -e
 ```
 
 **Windows** (Task Scheduler): Set up a daily task to run the ``fetch_data.py`` script. 
->>>>>>> 242d442 (Initial commit)

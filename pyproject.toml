@@ -1,0 +1,20 @@
+[project]
+name = "renshuu"
+version = "0.1.0"
+description = "Track and visualise Renshuu Japanese learning progress."
+readme = "README.md"
+requires-python = ">=3.12"
+
+# Minimal dependencies needed for the project
+dependencies = [
+    "polars>=1.32.3",
+    "pandas>=2.3.2",
+    "numpy>=2.3.2",
+    "matplotlib>=3.10.5",
+    "seaborn>=0.13.2",
+    "calplot>=0.1.7.5",
+    "python-dotenv>=1.1.1",
+    "requests>=2.32.5",
+    "pyarrow>=21.0.0",
+]
+

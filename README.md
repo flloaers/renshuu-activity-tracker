@@ -87,14 +87,6 @@ uv run python scripts/generate_plots.py
 └── README.md
 ```
 
-## 📄 License
-MIT License - feel free to use and modify!
-
-## 🤝 Contributing
-Issues and pull requests welcome! This is a learning project, so feedback is appreciated.
-
-## 🔌 API Usage Notes
-⚠️ **Rate Limiting**: Be mindful of Renshuu's API limits. The current setup is meant to fetch data once daily, which is well within reasonable limits. 
 
 ## 🔧 Troubleshooting
 - **API Key Issues**: Ensure your key is correctly set in the `.env` file.
@@ -120,3 +112,12 @@ crontab -e
 ```
 
 **Windows** (Task Scheduler): Set up a daily task to run the ``fetch_data.py`` script. 
+
+## 🔌 API Usage Notes
+⚠️ **Rate Limiting**: Be mindful of Renshuu's API limits (500 calls per day). The current setup is meant to fetch data once daily, which is well within reasonable limits. 
+
+## 🤝 Contributing
+Issues and pull requests welcome! This is a learning project, so feedback is appreciated.
+
+## 📜  License
+[MIT License](https://github.com/flloaers/renshuu-activity-tracker?tab=MIT-1-ov-file) - feel free to use and modify!
